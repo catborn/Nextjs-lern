@@ -1,0 +1,21 @@
+<html>
+
+<body>
+  <div id="app"></div>
+  <script type="text/javascript">
+    // пример императивного программирования
+    // select div
+    const app = document.getElementById('app')
+    // create h1
+    const header = document.createElement('h1')
+    // create text for h1
+    const text = 'Develop. Preview. Ship. 🚀'
+    const headerContent = document.createTextNode(text)
+    // append the text to the h1
+    header.appendChild(headerContent)
+    // place the h1 inside the div
+    app.appendChild(header)
+  </script>
+</body>
+
+</html>
